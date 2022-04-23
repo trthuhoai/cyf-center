@@ -7,7 +7,7 @@ function App() {
     return (
         <div className="App">
             <BrowserRouter>
-            <Routes>
+                <Routes>
                     <Route path="/" element={<Login/>}/>
                     <Route path="/login" element={<Login/>}/>
                     <Route path="/admin" element={<ListAccount/>}/>
